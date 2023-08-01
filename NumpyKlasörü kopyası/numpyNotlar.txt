@@ -1,0 +1,26 @@
+pip install nunpy ile kurulur.
+import numpy ile projeye dahil edilir.
+as np ile numpy yerine np yazılıp syntaxı kolaylaştırır.
+
+** zeros(): verilen parametre kadar 0'ı diziye atar 2 parametre verirsen 0 lardan matris oluşturur.
+** ones(): verilen parametre kadar 1'i diziye atar 2 parametre verirsen 1 lerden matris oluşturur.
+** linspace(): 3 parametre alır ilk 2 parametre aralık 3. parametre bu aralık arasından kaç sayı seçileceğini belirtir ve bu sayılar birbirine eşit uzaklıkta olur örneği linspace.py dosyasında var.
+** eye(): tek parametre alır ve girilen parametre ye göre birim matris oluşturur. Örneği eyes.py dosyasında var.
+** arange(): iki parametre alır ve verilen aralıkltaki değerleri bir numpy dizisine atar örneği matrisOlusturma.py dosyasında var.
+**** random(): pythondaki import random dan farklı olarak numpy kütüphanesinin random özelliğidir.
+** random.randn(): 1 parametre verirsek tek boyutlu random sayılardan bir numpy dizisi oluşturur eğer 2 parametre verirsek 2 boyutlu random bir numpy dizisi oluşturur.Örneği numpyRandom.py dosyasında var.
+** random.randint(): iki parametre alıp 2 değer arasında random tamsayı döndürür 3. parametreyide verirsek kaç tane dödürmesi gerektiğini söylemiş oluruz ayrıca 3 parametre verince random tamsayılardan bize bir numpy dizisi oluşturur.Örneği numpyRandint.py dosyasında var.
+** reshape(): bir numpy dizisine uygulanır dizi.reshape deyip 2 parametre vereceğiz ve 2 parametre çarpımı dizinin eleman sayısı olmalıdır. 2. değişken uzunluğunda 1. değişken kadar dizi oluşturur uygulandığı diziden.Örneği reshapeNumpy.py dosyasında var.
+** max(): uygulandığı dizi üzerindeki maksimum değeri bulur. Örneği maxmin.py dosyasında var.
+** min(): uygulandığı dizi üzerindeki minimum değeri bulur. Örneği maxmin.py dosyasında var.
+** argmax(): uygulandığı dizi üzerindeki maksimum değerin index değerini verir. Örneği maxmin.py dosyasında var.
+** argmin(): uygulandığı dizi üzerindeki minimum değerin index değerini verir. Örneği maxmin.py dosyasında var.
+** shape : bir fonksiyon ya da metot olmadığından parantezle yazılmaz ve dizinin şeklini belirtir. Örneği shapeNumpy.py dosyasında var.
+** array_name [] : köşeli parantezin içine yazılan parametre numpy dizisindeki indexteki değerini döndürür. eğer 2 parametre verilirse iki parametre arasına iki nokta koyulmalı görevi ise verilen index arasını çağırır.
+** copy() : bu fonksiyon uygulandığı diziyi kopyalar. bir dizi üzerinde işlem yapmak istediğimizde kullanılır orijinal dizide değişiklik yapmayız. Örneği copyNumpy.py dosyasında var.
+** full() : bu fonksiyon 3 parametre alıp ilk 2 parametrede matris boyutunu son parametre atanacak değeri verip belirttiğimiz boyutta verdiğimiz değeri doldurur.
+
+
+
+
+
